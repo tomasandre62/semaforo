@@ -1,0 +1,47 @@
+main{
+  border: 0px solid red;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.poste{
+  border: 0px solid black;
+  width: 20px;
+  height: 180px;
+  margin: 0px auto;
+  background-color:  black;
+}
+.caja{
+  border: 0px solid black;
+  width: 150px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: black;
+}
+.caja div{
+  width: 130px;
+  height: 130px;
+  border: 0px solid black;
+  border-radius: 50%;
+  margin: 10px;
+}
+.rojo{
+  background-color: red;
+}
+.amarillo{
+  background-color: yellow;
+}
+.verde{
+  background-color: green;
+}
+.encendido{
+  box-shadow: 0px 0px 56px 40px rgba(255,255,255,1);
+}
+button{
+  margin-top: 20px;
+}
